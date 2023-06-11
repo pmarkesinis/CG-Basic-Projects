@@ -1,0 +1,501 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						16,
+						17
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "framework",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-framework-Debug-beda9666560c34841701.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "framework/third_party",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-framework.third_party-Debug-86f340e663f5e295bc9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "framework/third_party"
+				},
+				{
+					"build" : "framework/third_party/catch2",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-framework.third_party.catch2-Debug-e49ad868b6b0088c6417.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "framework/third_party/catch2"
+				},
+				{
+					"build" : "framework/third_party/catch2/src",
+					"jsonFile" : "directory-framework.third_party.catch2.src-Debug-b4545d8872194d38ad52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "framework/third_party/catch2/src",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "framework/third_party/glm",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-framework.third_party.glm-Debug-b81a436048776e546a14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "framework/third_party/glm",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "framework/third_party/glm/glm",
+					"jsonFile" : "directory-framework.third_party.glm.glm-Debug-b39ec6c24985c9ab67cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "framework/third_party/glm/glm"
+				},
+				{
+					"build" : "framework/third_party/fmt",
+					"jsonFile" : "directory-framework.third_party.fmt-Debug-3e87864ee990a283ee4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/fmt",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "framework/third_party/tinyobjloader",
+					"jsonFile" : "directory-framework.third_party.tinyobjloader-Debug-476db45bb0bb40fc9bd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/tinyobjloader",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "framework/third_party/glad",
+					"jsonFile" : "directory-framework.third_party.glad-Debug-b9376995185d845d9507.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/glad",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "framework/third_party/glfw3",
+					"childIndexes" : 
+					[
+						11
+					],
+					"jsonFile" : "directory-framework.third_party.glfw3-Debug-fa1b53d02e1f0f60b707.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "framework/third_party/glfw3"
+				},
+				{
+					"build" : "framework/third_party/glfw3/src",
+					"jsonFile" : "directory-framework.third_party.glfw3.src-Debug-75faff5dd182087c3365.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 3,
+					"source" : "framework/third_party/glfw3/src",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "framework/third_party/imgui",
+					"jsonFile" : "directory-framework.third_party.imgui-Debug-8b443a151260be0d2656.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/imgui",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "framework/third_party/stb",
+					"jsonFile" : "directory-framework.third_party.stb-Debug-05fb1713e3f468db1d01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/stb"
+				},
+				{
+					"build" : "framework/third_party/nativefiledialog",
+					"jsonFile" : "directory-framework.third_party.nativefiledialog-Debug-acee690850770faf001a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/nativefiledialog",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "framework/third_party/toml",
+					"jsonFile" : "directory-framework.third_party.toml-Debug-31cec9c7a40fb449b0f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/toml"
+				},
+				{
+					"build" : "robot_arm",
+					"jsonFile" : "directory-robot_arm-Debug-660e325a2ff8f5b3fccd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "robot_arm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "solar_system",
+					"childIndexes" : 
+					[
+						18
+					],
+					"jsonFile" : "directory-solar_system-Debug-7e710ac93d9cfd8c8620.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "solar_system",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "solar_system/tests",
+					"jsonFile" : "directory-solar_system.tests-Debug-8bbebbb3401501c739a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "solar_system/tests",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "ComputerGraphics",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10,
+						11
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CGFramework::@217a96c3a62328a73ef4",
+					"jsonFile" : "target-CGFramework-Debug-fd5d4dc1cc48e8e0491e.json",
+					"name" : "CGFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2::@5d14516d7c572ca1c0b9",
+					"jsonFile" : "target-Catch2-Debug-32e2bd702ecbd5ab5cc3.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2WithMain::@5d14516d7c572ca1c0b9",
+					"jsonFile" : "target-Catch2WithMain-Debug-f273acd2d83a005bbcc2.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "RobotArm::@867c9b6b9463cb86d03f",
+					"jsonFile" : "target-RobotArm-Debug-485f929adc96986bad23.json",
+					"name" : "RobotArm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "SolarSystem::@d470aabd9dab02d841c7",
+					"jsonFile" : "target-SolarSystem-Debug-843a8afbef1b26939e96.json",
+					"name" : "SolarSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "SolarSystemTests::@9d5019f2e8248c16a938",
+					"jsonFile" : "target-SolarSystemTests-Debug-c8c697caeb09e40331ed.json",
+					"name" : "SolarSystemTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fmt::@0dd0d94e1dc15276fb9a",
+					"jsonFile" : "target-fmt-Debug-64d08a3dcd30dbd5d3fe.json",
+					"name" : "fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "glad::@37fc3951361369fd0aab",
+					"jsonFile" : "target-glad-Debug-6e2e5f98c36af3f1ad67.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "glfw::@1ea9373b6bb5e4d316d5",
+					"jsonFile" : "target-glfw-Debug-b8d2cf8b7b97da7bcb81.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "imgui::@d93b9608dfe271870d34",
+					"jsonFile" : "target-imgui-Debug-c7d3e344c75d115be888.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "nativefiledialog::@5dc90a60f82ed0bfb84e",
+					"jsonFile" : "target-nativefiledialog-Debug-28ab8fcd32ba24cc9d6e.json",
+					"name" : "nativefiledialog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "tinyobjloader::@9b74d22b9aa34cf3c85f",
+					"jsonFile" : "target-tinyobjloader-Debug-a3770882fa50dc1d61fb.json",
+					"name" : "tinyobjloader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@3d52fb0c6669cf922159",
+					"jsonFile" : "target-uninstall-Debug-29b4731c641dbf114625.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "update_mappings::@1ea9373b6bb5e4d316d5",
+					"jsonFile" : "target-update_mappings-Debug-c8f6ccabfa4614fc5eda.json",
+					"name" : "update_mappings",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/paulo/iCloudDrive/DELFT/y2/q1/computer graphics/assignments/assignment2/assignment2/out/build/x64-Debug",
+		"source" : "C:/Users/paulo/iCloudDrive/DELFT/y2/q1/computer graphics/assignments/assignment2/assignment2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

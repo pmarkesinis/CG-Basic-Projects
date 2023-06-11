@@ -1,0 +1,5 @@
+add_executable(SolarSystemTests "solar_system_tests.cpp")
+target_compile_features(SolarSystemTests PRIVATE cxx_std_20)
+set_project_warnings(SolarSystemTests)
+
+target_link_libraries(SolarSystemTests PRIVATE CGFramework Catch2WithMain)
